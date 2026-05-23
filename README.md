@@ -8,3 +8,13 @@ The original intention was tracking node frequency and usage as well as their co
 I suppose that was accomplished - at least to a degree - but I'm wondering about the possibility of expanding the usage to handling large workflow collections and reducing the bloat that occurs over time when downloading workflows for some people. I have no problem admitting that even getting to this point is well beyond my personal capability and creating something functional, complete, and useful from here will be even further outside of that. It will likely also require LLM integration since fingerprinting and deterministic structure will only go so far. 
 
 I'm unsure if, how or when I will approach any of this. But if one person finds this useful as-is, then it wasn't a complete waste of time.
+
+
+Usage:
+    python wf_extract.py <folder> [output.txt] [options]
+
+Options:
+    --compact       Summary only (models, groups, metadata) — no node details
+    --show-muted    Include muted nodes in output (flagged [MUTED])
+    --unknown       Append list of types that fell back to positional params
+    --no-notes      Don't capture Note/MarkdownNote text content
