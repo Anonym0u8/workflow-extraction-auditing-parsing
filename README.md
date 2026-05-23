@@ -11,10 +11,10 @@ I'm unsure if, how or when I will approach any of this. But if one person finds 
 
 
 Usage:
-    python wf_extract.py <folder> [output.txt] [options]
+python wf_extract.py <folder> [output.txt] [options]
 
 Options:
-    --compact       Summary only (models, groups, metadata) — no node details
-    --show-muted    Include muted nodes in output (flagged [MUTED])
-    --unknown       Append list of types that fell back to positional params
-    --no-notes      Don't capture Note/MarkdownNote text content
+--compact       Summary only (models, groups, metadata) — no node details
+--show-muted    Include muted nodes in output (flagged [MUTED])
+--unknown       Append list of types that fell back to positional params
+--no-notes      Don't capture Note/MarkdownNote text content
